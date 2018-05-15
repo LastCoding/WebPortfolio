@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.20.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  },
+  "scripts": {
+    "assets:watch": "encore dev --watch",
+    "assets:dev": "encore dev",
+    "assets:build": "encore production"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}

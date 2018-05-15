@@ -3,15 +3,16 @@
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Routing\Annotation\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 
-class WallController {
+class WallController extends Controller {
 	/**
 	 * @Route("/")
 	 * @Method({"GET"})
 	 */
 	public function index() {
-		return new Response( '<html> <body> <h1> Hi </h1></body></html>' );
+		return $this->render( 'wall/index.html.twig');
 	}
 }
