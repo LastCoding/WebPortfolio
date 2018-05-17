@@ -3,14 +3,14 @@ var Encore = require('@symfony/webpack-encore');
 
 Encore
 // the project directory where all compiled assets will be stored
-    .setOutputPath('public/assets/')
+    .setOutputPath('public/assets/css/')
 
     // the public path used by the web server to access the previous directory
-    .setPublicPath('/assets')
+    .setPublicPath('/public')
 
     // will create public/build/app.js and public/build/app.css
     // .addEntry('app', './assets/js/app.js')
-    .addEntry('app', './assets/js/app.js')
+    .addStyleEntry('wall', './public/assets/sass/wall.scss')
 
     // allow legacy applications to use $/jQuery as a global variable
     // .autoProvidejQuery()
