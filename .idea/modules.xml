@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../symphart/.idea/symphart.iml" filepath="$PROJECT_DIR$/../symphart/.idea/symphart.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webPortfolio.iml" filepath="$PROJECT_DIR$/.idea/webPortfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wordpress/.idea/wordpress.iml" filepath="$PROJECT_DIR$/../wordpress/.idea/wordpress.iml" />
     </modules>
   </component>
 </project>
